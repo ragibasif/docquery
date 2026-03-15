@@ -158,7 +158,9 @@ pydantic==2.12.5
 pydantic-core==2.41.5
     # via pydantic
 pydantic-settings==2.13.1
-    # via chromadb
+    # via
+    #   backend
+    #   chromadb
 pygments==2.19.2
     # via rich
 pymupdf==1.27.2
@@ -171,6 +173,7 @@ python-dateutil==2.9.0.post0
     # via kubernetes
 python-dotenv==1.2.2
     # via
+    #   backend
     #   pydantic-settings
     #   uvicorn
 python-multipart==0.0.22
