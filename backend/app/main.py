@@ -13,3 +13,9 @@ app = FastAPI(title="DocQuery")
 @app.get("/")
 async def root():
     return {"status": "ok", "message": "DocQuery API is running"}
+
+
+# TODO: /documents
+# TODO: /upload
+# TODO: /ask
+# TODO: /delete
